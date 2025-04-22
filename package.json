@@ -1,0 +1,15 @@
+{
+  "name": "loopster",
+  "version": "1.0.0",
+  "description": "video sharing platform web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "MERN"
+  ],
+  "author": "Pankaj Prasad",
+  "license": "ISC"
+}
