@@ -7,10 +7,12 @@ const connectDB = async () => {
     //    console.log(connectionInstance);
        
        console.log(`\n MONGODB Connected !! Databased Host:  ${connectionInstance.connection.host}`);
+    //    console.log(process.pid);
        
     } catch (error) {
         console.log("MONGODB connection error", error);
         process.exit(1)
+        
     }
 }
 export default connectDB
