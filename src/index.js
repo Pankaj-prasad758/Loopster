@@ -12,7 +12,7 @@ connectDB()
         console.log("error in index.jsx", error);
         
     })
-    app.listen(process.env.PORT || 6000,() => {
+    app.listen(process.env.PORT || 7000,() => {
         console.log(`Server running at port ${process.env.PORT}`);
         
     })
